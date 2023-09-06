@@ -20,6 +20,16 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .container {
     width: 1140px;
     margin-left: auto;
@@ -36,15 +46,49 @@ a {
 /* Navbar*/
 
 nav {
+    width: 100%;
     font-family: Montserrat;
     background-color: #2C3E4F;
     color: #fff;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    position: fixed;
+}
+
+#logo-box {
+    float: left;
+    padding-top: 0.5rem;
 }
 
 #logo-box .logo {
     color: #fff;
     font-weight: 700;
     font-size: 2.8rem;
+}
+
+#nav-links {
+    float: right;
+}
+
+#nav-links .nav-item {
+    float: left;
+    margin: 0.5rem;
+}
+
+#nav-links .nav-link {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+}
+
+#nav-links .nav-link:hover {
+    color: #1ABC9B;
 }
