@@ -92,3 +92,12 @@ nav {
 #nav-links .nav-link:hover {
     color: #1ABC9B;
 }
+
+
+/* Header */
+
+header {
+    background-color: #1ABC9B;
+    height: 700px;
+    padding-top: calc(106px + 4rem);
+}
