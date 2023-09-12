@@ -16,12 +16,27 @@ body {
     background-color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+}
+
+.img-fluid {
+    max-width: 200px;
+    height: auto;
 }
 
 .clearfix::after {
@@ -99,5 +114,11 @@ nav {
 header {
     background-color: #1ABC9B;
     height: 700px;
-    padding-top: calc(106px + 4rem);
+    padding-top: calc(106px + 7rem);
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 6rem;
 }
