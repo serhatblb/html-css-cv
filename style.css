@@ -37,6 +37,11 @@ ul {
 .img-fluid {
     max-width: 200px;
     height: auto;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
 }
 
 .clearfix::after {
@@ -121,4 +126,36 @@ header {
 header h1 {
     color: #fff;
     font-size: 6rem;
+}
+
+header h2 {
+    color: #fff;
+    font-size: 2.4rem;
+    font-family: "Lato";
+    font-weight: 300;
+}
+
+.star-light {
+    border: none;
+    border-top: #fff solid 0.4rem;
+    margin: 2.5rem auto;
+    max-width: 25rem;
+    overflow: visible;
+    height: 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.star-light::after {
+    content: "\2605";
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px;
+    padding: 0 8px;
+    background: #1ABC9B;
 }
