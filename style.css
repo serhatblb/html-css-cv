@@ -86,6 +86,11 @@ section {
 .img-fluid {
     max-width: 256px;
     height: auto;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
 }
 
 .clearfix::after {
@@ -299,4 +304,37 @@ hr.star-dark {
 
 #about-text .text {
     font-size: 2rem;
+}
+
+
+/*CONTACT*/
+
+#contact h2 {
+    font-size: 4.8rem;
+    color: #2c3e50;
+}
+
+#contact-form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+
+.form-group input,
+.form-group textarea {
+    border: none;
+    width: 100%;
+    display: block;
+    font-size: 2.4rem;
+}
+
+.form-group input:focus,
+.form-group textarea {
+    outline: none;
 }
